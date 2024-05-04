@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House of hamsters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.png" sizes="any">
+<link rel="stylesheet" href="/style.css"> 
+<style>
+    @media (max-width: 430px ) {
+        .first{
+            grid-template-columns: 50px 250px 150px 50px;
+            grid-template-rows: 50px 470px 50px;
+            height: 70vh;
+            background: url(/hamsters4.png);
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-position: top center;
+
+        }
+        
+        .menu{
+        width: 430px;
+        display: flex;
+        font-size: 10px;
+        height: 10vh;
+        
+        }
+        .box1{
+            width: 430px;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+            height: 40px;
+        }
+          .link{
+            font-size: 10px;
+          }  
+          .WP{
+        font-size: 10px;
+          }
+          .tittle{
+            font-size: 30px;
+            
+          }
+          .t{
+            font-size: 10px;
+          }
+          .pic2{
+            width: 100px;
+          }
+          .maintittle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 15px;
+          }
+          .box2{
+            width: 430px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+          }
+          .t3{
+            font-size: 10px;
+          }
+          .t4{
+            font-size: 10px;
+          }
+          .col{
+            padding-top: 15px;
+          }
+          .t5{
+            font-size: 35px;
+          }
+          .box3{
+            padding-top: 50px;
+            height: 65vh;
+            width: 90vw;
+          }
+          .left2{
+            padding: 0;
+            padding-top: 20px;
+          }
+          .right2{
+            padding: 0;
+            padding-top: 20px;
+          }
+          .texts{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+          }
+          .box4{
+            height: 50vh;
+          }
+          .box5{
+            height: 80vh;
+          }
+          .t8{
+            font-size: 50px;
+          }
+          .container{
+            grid-template-columns: 215px 215px;
+            grid-template-rows: 95px 95px 95px 95px 95px 95px;
+            gap: 10px;
+          }
+          .pic7{
+            grid-column: 1/1;
+            width: 150px;
+            height: 100px;
+          }
+          .t10{
+            grid-column: 1/1;
+            grid-row: 2/2;
+            font-size: 10px;
+            text-align: center;
+            width: 150px;
+          }
+          .pic8{
+            grid-column: 2/2;
+            width: 150px;
+            height: 100px;
+          }
+          .t11{
+            grid-column: 2/2;
+            grid-row: 2/3;
+           font-size: 10px;
+           text-align: center;
+           width: 150px;
+          }
+          .pic9{
+            grid-column: 1/1;
+            grid-row: 3/3;
+            width: 150px;
+            height: 100px;
+          }
+          .t12{
+            grid-column: 1/1;
+            grid-row: 4/4;
+           font-size: 10px;
+            text-align: center;
+            width: 150px;
+          }
+          .pic12{
+            grid-column: 2/2;
+            grid-row: 3/3;
+            width: 150px;
+            height: 100px;
+         }
+         .t13{
+            grid-column: 2/2;
+            grid-row: 4/4;
+            font-size: 10px;
+            text-align: center;
+            width: 150px;
+         }
+         .pic11{
+            grid-column: 1/1;
+            grid-row: 5/5;
+            width: 150px;
+            height: 100px;
+         }
+         .t14{
+            grid-column: 1/1;
+            grid-row: 6/6;
+           font-size: 10px;
+            text-align: center;
+            width: 150px;
+         }
+         .pic10{
+            grid-column: 2/2;
+            grid-row: 5/5;
+            width: 150px;
+            height: 100px;
+        }
+        .t15{
+            grid-column: 2/2;
+            grid-row: 6/6;
+            font-size: 10px;
+            text-align: center;
+            width: 150px;
+        }
+        .t17{
+            font-size: 25px;
+        }
+        .pic15{
+            width: 50px;
+            height: 50px;
+        }
+        .pic16{
+            width: 50px;
+            height: 50px;
+        }
+        .pic17{
+            width: 50px;
+            height: 50px;
+            padding-left: 0;
+        }
+        .pic14{
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            width: 150px;
+        }
+        .pic13{
+            width: 430px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding-top: 10px;
+            padding-left: 70px;
+        }
+        .t18{
+            width: 70px;
+        }
+        .t19{
+            width: 70px;
+        }
+        .t20{
+            width: 70px;
+        }
+        .t21{
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .box6{
+            height: 50vh;
+            width: 90vw;
+        }
+        .pic14{
+            width: 300px;
+        }
+        .t18{
+            width: 205px;
+        }
+        .t19{
+            width: 300px;
+        }
+        .t20{
+            width: 300px;
+        }
+        .t22{
+            font-size: 30px;
+            padding-top: 0px;
+            padding-left: 0px;
+            text-align: center;
+        }
+        .t23{
+            padding-left: 10px;
+            text-align: center;
+            font-size: 13px;
+        }
+        .box7{
+            width: 90vw;
+            height: 290vh;
+        }
+        .p1{
+            flex-direction: column;
+        }
+        .t25{
+            text-align: center;
+        }
+        .pic18{
+            width: 350px;
+            height: 250px;
+        }
+        .box8{
+            width: 90vw;
+            height: 150vh;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 400px 230px 800px 200px 200px;
+        }
+        .ci4{
+            grid-column: 1 / 2;
+            grid-row: 2 / 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .ci2{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.pic20{
+    margin: 0;
+}
+.ci7{
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    padding: 0;
+}
+.t27{
+    font-size: 90px;
+}
+.t28{
+    font-size: 15px;
+    width: 350px;
+}
+.t30{
+    width: 380px;
+    text-align: center;
+}
+.t32{
+    width: 380px;
+    text-align: center;
+}
+.t34{
+    width: 380px;
+    text-align: center;
+}
+.box9{
+    height: 110vh;
+    width: 90vw;
+}
+.t36{
+    width: 380px;
+}
+.tables{
+    flex-direction: column;
+    gap: 10px;
+}
+.quater2{
+    width: 300px;
+}
+.quater3{
+    width: 300px;
+}
+.box10{
+    width: 90vw;
+}
+.t38{
+    font-size: 60px;
+}
+.link5{
+    width: 200px;
+    font-size: 20px;
+}
+.but2{
+    height: 46px;
+    font-size: 20px;
+    margin: 0 10px 17px 0;
+}
+.box11{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+.photos{
+    display: flex;
+    
+}
+.t41{
+    font-size: 20px;
+}
+.t42{
+    font-size: 30px;
+}
+.t43{
+    font-size: 10px;
+    padding-right: 10px;
+}
+.t44{
+    text-align: center;
+    width: 80vw;
+}
+.t45{
+    text-align: center;
+    width: 80vw;
+}
+.pic21{
+    height: 130px;
+    width: 110px;
+}
+.box12{
+    width: 90vw;
+    height: 320vh;
+}
+.team{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px;
+
+}
+.box13{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    
+}
+.t48{
+    font-size: 30px;
+}
+.t49{
+    font-size: 20px;
+}
+.email3{
+    font-size: 15px;
+}
+    
+        }
+</style>
+</head>
+<body>
+
+    <header class="box1">
+    
+        <div class="game">
+           
+        </div>
+        <div class="menu">
+            <a href=""  class="link lk"> About</a>
+            <a href="" class="link"> Key Features</a>
+            <a href="" class="link"> Get Started</a>
+            <a href="" class="link"> $HAMC</a>
+            <a href="" class="link"> Roadmap</a>
+            <a href="" class="link"> Marketplace</a>
+            <a href="" class="link"> Team</a>
+            <a href="" class="link"> FAQ</a>
+        </div>
+        <a href="" class="WP">WhitePaper</a>
+    </header>
+    <main>
+        <section class="first hamm">
+            <div class="maintittle">
+            <h1 class="tittle">Play Texas Hold’em – earn cryptocurrency</h1>
+            <h2 class="t">The first NFT game with the ‘Think-to-Earn’ concept, where you can enhance your intelligence by competing with other users.</h2>
+        </div>
+            <div class="socials">
+                <div class="right">
+                    <p class="t2">Powered by</p>
+                    <a href="" class="link2">
+                        <img width="170" height="30" src="/bnb.svg" alt="" class="pic2">
+                    </a>
+                </div>
+                <div class="left">
+                    <p class="t2">Our socials</p>
+                    <a href="" class="link3">
+                        <img width="32" height="32" src="/twitter.png" alt="" class="pic3">
+                    </a>
+                    <a href="" class="link3">
+                        <img  width="32" height="32" src="/discord3.png" alt="" class="pic3">
+                    </a>
+                    <a href="" class="link3">
+                        <img  width="32" height="32" src="/telegram4.png" alt="" class="pic3">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="box2">
+<div class="col">
+<img   src="/bnb.svg" alt="" class="pic4">
+<p class="t3">A new and fast-developing mobile <br> game</p>
+<a href="" class="but">Read more</a>
+</div>
+<div class="col">
+<img   src="/bnb.svg" alt="" class="pic4">
+<p class="t3">The project’s concept is focused on <br> fair and just competitions</p>
+<a href="" class="but">Read more</a>
+</div>
+<div class="col">
+<img  src="/bnb.svg" alt="" class="pic4">
+<p class="t4">and 74 more media…        </p>
+</div>
+</section>
+
+<section class="box3">
+    <div class="pic">
+    <h1 class="t5">Revolutionary project <br> merging two areas</h1>
+   <img class="pic5" src="/logo.svg" alt=""></div>
+   <div class="texts">
+    <div class="left2">
+        <h2 class="t6">GameFi</h2>
+        <p class="t7">We are the first Think-to-Earn concept game, <br> designed to enhance critical thinking and <br> decision-making abilities with unique <br> blockchain technology.</p>
+    </div>
+    <div class="right2">
+        <h2 class="t6">Poker</h2>
+        <p class="t7">The first Web3 poker space with gamification <br> and unlimited earning opportunities without <br> mandatory investments.</p>
+    </div>
+   </div>
+</section>
+<section class="box4">
+    <iframe class="video" width="100%" height="100%" autoplay src="https://player.vimeo.com/video/844281745?h=4faf2f18b5=5dca9065ae&autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</section>
+
+<section class="box5">
+<h1 class="t8"> <span class="t16">Play to</span> Earn <br> <span class="t16">Think to</span> Win</h1>
+<div class="container">
+    <img width="280" height="180" src="/cards.webp" alt="" class="pic6 pic7">
+    <img width="280" height="180" src="/cards.webp" alt="" class="pic6 pic8">
+    <img width="280" height="180" src="/cards.webp" alt="" class="pic6 pic9">
+    <p class="t9 t10">Texas Hold’em
+        We use the popular poker version — Texas Hold’em to let Hamsters compete.</p>
+    <p class="t9 t11">Texas Hold’em
+        We use the popular poker version — Texas Hold’em to let Hamsters compete.</p>
+    <p class="t9 t12">Texas Hold’em
+        We use the popular <br> poker version — Texas Hold’em to let <br> Hamsters compete.</p>
+    <img width="280" height="180" src="/cards.webp" alt="" class="pic6 pic10">
+    <img width="280" height="180" src="/cards.webp" alt="" class="pic6 pic11">
+     <img width="280" height="180" src="/cards.webp" alt="" class="pic6 pic12">
+    <p class="t9 t13">Texas Hold’em
+        We use the popular <br> poker version — Texas Hold’em to let <br> Hamsters compete.</p>
+    <p class="t9 t14">Texas Hold’em
+        We use the popular poker version — Texas Hold’em to let Hamsters compete.</p>
+    <p class="t9 t15">Texas Hold’em
+        We use the popular  poker version — Texas Hold’em to let Hamsters compete.</p>
+    
+</div>
+</section>
+
+<section class="box6">
+    <h1 class="t17">Events and promotions</h1>
+<div class="pic13">
+    <div class="pic14">
+        <img src="/twitter.png" alt="" class="pic15">
+        <div class="t18">Twitter Follow us on X</div>
+    </div>
+    <div class="pic14">
+        <img src="/discord3.png" alt="" class="pic16">
+        <div class="t19">Discord <br> Join our server</div>
+    </div>
+    <div class="pic14">
+        <img src="/telegram4.png" alt="" class="pic17">
+        <div class="t20">Telegram <br> Join our channel</div>
+    </div>
+</div>
+<p class="t21">Subscribe to our social media channels and be the first to <br> know about project news!</p>
+</section>
+<section class="box7">
+    <h1 class="t22">Getting Started with House <br> of Hamsters</h1>
+    <h2 class="t23">House of Hamsters is a blockchain game that rewards players for their <br> smart decision-making. Play Texas Hold’em and earn cryptocurrency.</h2>
+    <div class="spisok">
+   <div class="p1">
+        <p class="t25"> 
+        <span class="t24">01 Register</span> <br> <br> Download the House of Hamsters game from Google Play or the App <br> Store on your smartphone and create an account.</p>
+        <img src="/smile.webp" alt="" class="pic18">
+    </div>
+    <div class="p1">
+        <p class="t25"> 
+        <span class="t24">01 Register</span> <br> <br> Download the House of Hamsters game from Google Play or the App <br> Store on your smartphone and create an account.</p>
+        <img src="/smile.webp" alt="" class="pic18">
+    </div>
+    <div class="p1">
+        <p class="t25"> 
+        <span class="t24">01 Register</span> <br> <br> Download the House of Hamsters game from Google Play or the App <br> Store on your smartphone and create an account.</p>
+        <img src="/smile.webp" alt="" class="pic18">
+    </div>
+    <div class="p1">
+        <p class="t25"> 
+        <span class="t24">01 Register</span> <br> <br> Download the House of Hamsters game from Google Play or the App <br> Store on your smartphone and create an account.</p>
+        <img src="/smile.webp" alt="" class="pic18">
+    </div>
+    <div class="p1">
+        <p class="t25"> 
+        <span class="t24">01 Register</span> <br> <br> Download the House of Hamsters game from Google Play or the App <br> Store on your smartphone and create an account.</p>
+        <img src="/smile.webp" alt="" class="pic18">
+    </div>
+    </div>
+</section>
+<section class="box8">
+<div class="cont ci1">
+   
+</div>
+<div class="cont ci2"> <p class="t26">Powered by</p>
+    <img width="140" height="25" src="/bnb.svg" alt="" class="pic19">
+    <h1 class="t27">$HAMC</h1>
+    <p class="t28">$HAMC is a token created on the Binance Smart Chain (BSC) with an unlimited total emission, functioning as a digital asset operating on the BSC blockchain. $HAMC serves as the key token within the house of Hamsters ecosystem, managing the in-game economy and ensuring its stability, enabling players to monetize their activities and play to earn.</p>
+</div>
+<div class="cont ci3"></div>
+<div class="cont ci4">
+    <img width="200" height="200" src="/ham.svg" alt="" class="pic20">
+    <a href="" class="link4">    
+    Detailed Tokenomics
+</a>
+</div>
+<div class="cont ci5"></div>
+<div class="cont ci6"></div>
+<div class="cont ci7">
+    <div class="av av1">
+    <h1 class="t29">Transparency</h1>
+    <p class="t30">House of Hamsters uses the cutting-edge power of blockchain technology to document all transactions in a transparent, public ledger. Thanks to the open source shuffling and dealing of cards, we provide a completely open and fair competition.</p>
+    </div>
+    <div class="av">
+        <h1 class="t31">Game Performance</h1>
+        <p class="t32">Earn $HAMC tokens while playing and watch your rewards grow with your gaming skills! The more adept you become at the game, the greater the amount of HAMC tokens you’ll earn.</p>
+    </div>
+    <div class="av">
+        <h1 class="t33">Free Trade</h1>
+        <p class="t34">Tokens can be easily exchanged on the DEX and CEX. This feature allows you to buy and sell tokens outside of our platform.</p>
+    </div>
+</div>
+
+</section>
+
+<section class="box9">
+    <h1 class="t35">Roadmap</h1>
+    <p class="t36">Our vision extends beyond traditional boundaries. House of Hamsters <br> offers a unique blend of thrilling poker gameplay and the potential to earn <br> cryptocurrency rewards.</p>
+    <div class="tables">
+        <div class="quater quater2">
+            <h2 class="t37">4th Quater</h2>
+            <ul class="spisok2">
+                <li class="table"> Seed funding round</li>
+                <li class="table"> Seed funding round</li>
+                <li class="table"> Seed funding round</li>
+                <li class="table"> Seed funding round</li>
+                <li class="table"> Seed funding round</li>
+            </ul>
+        </div>
+        <div class="quater quater3">
+            <h2 class="t37">4th Quater</h2>
+            <li class="spisok2">
+                <ul class="table"> Seed funding round</ul>
+                <ul class="table"> Seed funding round</ul>
+                <ul class="table"> Seed funding round</ul>
+                <ul class="table"> Seed funding round</ul>
+                <ul class="table"> Seed funding round</ul>
+            </li>
+        </div>
+        <div class="quater quater3">
+            <h2 class="t37">4th Quater</h2>
+            <li class="spisok2">
+                <ul class="table"> Seed funding round</ul>
+                <ul class="table"> Seed funding round</ul>
+                <ul class="table"> Seed funding round</ul>
+                <ul class="table"> Seed funding round</ul>
+                <ul class="table"> Seed funding round</ul>
+            </li>
+        </div>
+    </div>
+</section>
+
+<section class="box10">
+    <h1 class="t38"> <span class="t39">Get</span> Luck <span class="t39">and</span> <br> Experience <span class="t39">points</span> <br> <span class="t39">for free!</span></h1>
+   <div class="email">
+    <div class="email2">
+    <input type="email" placeholder="E-mail address" class="link5">
+    <p class="t40">
+        Provide the email you will use for registration <br>
+        and receive 30 points of Luck + 30 points of Experience.
+    </p>
+</div>
+    <button class="but2">Sign Up</button>
+</div> 
+
+</section>
+
+<section class="box11">
+   <div class="texts2"><h2 class="t41">Marketplace – soon</h2>
+    <h1 class="t42">Trade & Earn:</h1>
+    <p class="t43">Engage in the bustling marketplace. Earn $HAMC by buying/selling and <br> renting NFTs.</p>
+    <p class="t43">Increase your earnings in the game by buying NFT glasses and hats, <br> giving unique style to your Hamster. You can also purchase an NFT table <br> and receive a part of the commissions from games for tokens while <br> playing at your table.</p></div>
+    <div class="photos">
+        <img width="183" height="243" src="/ham2.webp" alt="" class="pic21">
+        <img width="183" height="243" src="/ham2.webp" alt="" class="pic21">
+        <img width="183" height="243" src="/ham2.webp" alt="" class="pic21">
+    </div>
+</section>
+
+<section class="box12">
+    <h1 class="t44">Our Team</h1>
+    <p class="t45">Our international team is the driving force behind our success. With <br> diverse backgrounds and expertise spanning multiple cultures and <br> industries, we form a cohesive unit that embraces diversity, fosters <br> creativity, and drives innovation to propel our project towards continued <br> growth and global recognition.</p>
+    <div class="team">
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+        <div class="teammate">
+            <img class="pic22" src="/hamster3.webp" alt="">
+            <p class="t46">Amirsan Roberto</p>
+            <p class="t47">Advisor</p>
+        </div>
+    </div>
+</section>
+
+<section class="box13">
+<div class="first2">
+    <h1 class="t48">FAQ</h1>
+    <p class="t49">You can ask any question here</p>
+    <a href="hello@hoh.game" class="email3">hello@hoh.game</a>
+</div>
+<details>
+   <div class="second">
+    <p class="t50">Where can I learn more about the game?</p>
+    <p class="t50">Where can I learn more about the game?</p>
+    <p class="t50">Where can I learn more about the game?</p>
+    <p class="t50">Where can I learn more about the game?</p>
+    <p class="t50">Where can I learn more about the game?</p>
+    <p class="t50">Where can I learn more about the game?</p>
+    <p class="t50">Where can I learn more about the game?</p>
+   </div>
+</details>
+</section>
+
+<section class="box14">
+    <div class="first3">
+    <h1 class="t51">House of Hamsters</h1>
+    <a href="" class="t52">Terma of Service</a>
+    <a href="" class="t53">Privacy Police</a>
+   <div class="img2">
+    <img src="/twitter.png" alt="" class="pic23">
+    <img src="/discord3.png" alt="" class="pic24">
+    <img src="/telegram4.png" alt="" class="pic25">
+</div>
+<p class="t65">Hamster Ltd 2023. All rights reserved.</p>
+</div>
+<div class="second2">
+    <div class="t54 tt54"></div>
+    <div class="t55 tt54">
+        <p class="t57">Project</p>
+        <a  href="" class="t58">About</a>
+        <a href="" class="t58">Key Features</a>
+        <a href="" class="t58">Get Started</a>
+    </div>
+    <div class="t54 tt54"></div>
+    <div class="t56 tt54">
+        <p class="t62"> Resourses</p>
+        <a href="" class="t63">WhitePaper</a>
+        <a href="" class="t63">Marketplace – soon</a>
+        <a href="" class="t63">Android App – soon</a>
+        <a href="" class="t63">iOS App – soon</a>
+    </div>
+    <div class="t54 tt54"></div>
+    <div class="t54 tt54"></div>
+    <div class="t60 tt54">
+        <a href="" class="t61"> $HAMC</a>
+        <a href="" class="t59">Roadmap</a>
+        <a href="" class="t59"> Marketplace</a>
+        <a href="" class="t59">Team</a>
+        <a href="" class="t59">FAQ</a>
+    </div>
+    <div class="t54 tt54"></div>
+    <div class="t54 tt54"></div>
+    <div class="t54 tt54"></div>
+    <div class="t54 tt54"></div>
+    <div class="t62 tt54">
+        <p class="t64">Play to Earn – Think to Win</p>
+    </div>
+    <div class="t54 tt54"></div>
+    <div class="t54 tt54"></div>
+    <div class="t54 tt54"></div>
+ 
+
+
+
+
+
+
+</div>
+</section>
+    
+    </main>
+</body>
+</html>
