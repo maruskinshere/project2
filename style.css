@@ -49,7 +49,7 @@ grid-template-rows: 250px 400px 150px 100px;
 
 }
 .hamm{
-    background: url(/pic3.webp);
+    background: url(pic3.webp);
     background-position: center top;
     background-repeat: no-repeat;
 }
